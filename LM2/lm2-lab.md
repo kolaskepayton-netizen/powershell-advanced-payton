@@ -23,3 +23,10 @@ Created resource group 'TestRG' in location 'centralus'
 ## Observed differences
 Verbose: shows waht the script is currently doing
 Debug: Shows extra details that help troubleshoot the script
+
+## Task 3
+Test Name: Should create a new resouce group
+
+Expected Results: The resouce group should be created successfully in Central US
+
+Actual Result: The test verified that the group was created successfully
