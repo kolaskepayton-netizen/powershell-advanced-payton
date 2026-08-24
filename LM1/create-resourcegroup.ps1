@@ -16,10 +16,13 @@ param (
     [string]$ResourceGroupName
 )
 
-$TranscriptPath = "$PSScriptRoot\logs.txt"
-Start-Transcript -Path $TranscriptPath -Append
+Write-Verbose "Creating resource group"
+Write-Debug "Resource Group Name: $ResourceGroupName"
+
+start-transcript -path "lm1-logs.log" -append
 try {
     New-AzResourceGroup -Name $ResourceGroupName -Location "centralus" -ErrorAction Stop
+    Write-Verbose "Resource group '$ResourceGroupName' created successfully."
 } 
 catch {
  "Failed to create resource group: $($_.Exception.Message)"

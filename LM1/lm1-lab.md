@@ -39,3 +39,14 @@ The catch showed the error message
 
 Finally:
 The Finally showed "Script execution completed."
+
+## Task 5
+Transcript file location:
+LM1\logs.txt
+
+Example entry:
+Script execution completed.
+
+Readability improvements:
+1. Used descriptive variable name.
+2. Used proper indentation to make it easier to read.
