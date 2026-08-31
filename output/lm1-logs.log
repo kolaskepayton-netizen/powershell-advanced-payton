@@ -1,0 +1,255 @@
+**********************
+PowerShell transcript start
+Start time: 20260824154614
+Username: PA-payton\student
+RunAs User: PA-payton\student
+Configuration Name: 
+Machine: PA-payton (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.5.0_x64__8wekyb3d8bbwe\pwsh.dll -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\student\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\student\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\student\AppData\Roaming\Code\logs\20260824T144114\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\student\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-8988-806656.json' -FeatureFlags @() 
+Process ID: 3232
+PSVersion: 7.6.5
+PSEdition: Core
+GitCommitId: 7.6.5
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.4
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+**********************
+PowerShell transcript end
+End time: 20260824154621
+**********************
+**********************
+PowerShell transcript start
+Start time: 20260831161101
+Username: PA-payton\student
+RunAs User: PA-payton\student
+Configuration Name: 
+Machine: PA-payton (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.5.0_x64__8wekyb3d8bbwe\pwsh.dll -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\student\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\student\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\student\AppData\Roaming\Code\logs\20260831T155907\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\student\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-5188-583127.json' -FeatureFlags @() 
+Process ID: 6336
+PSVersion: 7.6.5
+PSEdition: Core
+GitCommitId: 7.6.5
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.4
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is lm1-logs.log
+Confirm
+Provided resource group already exists. Are you sure you want to update it?
+&Yes  &No  &Suspend
+Y
+
+ResourceGroupName : TestRG
+Location          : centralus
+ProvisioningState : Succeeded
+Tags              : 
+                    Name         Value
+                    ===========  =====
+                    Environment  Test
+                    Department   IT
+
+ResourceId        : /subscriptions/38199d70-d859-49d3-b8a7-a1298b07b8b7/resourceGroups/TestRG
+
+Script execution completed.
+**********************
+PowerShell transcript end
+End time: 20260831161111
+**********************
+**********************
+PowerShell transcript start
+Start time: 20260831161744
+Username: PA-payton\student
+RunAs User: PA-payton\student
+Configuration Name: 
+Machine: PA-payton (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.5.0_x64__8wekyb3d8bbwe\pwsh.dll -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\student\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\student\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\student\AppData\Roaming\Code\logs\20260831T155907\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\student\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-5188-583127.json' -FeatureFlags @() 
+Process ID: 6336
+PSVersion: 7.6.5
+PSEdition: Core
+GitCommitId: 7.6.5
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.4
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is lm1-logs.log
+
+ResourceGroupName : DevTest
+Location          : centralus
+ProvisioningState : Succeeded
+Tags              : 
+                    Name         Value
+                    ===========  ===========
+                    Environment  Development
+                    Department   Dev
+
+ResourceId        : /subscriptions/38199d70-d859-49d3-b8a7-a1298b07b8b7/resourceGroups/DevTest
+
+Script execution completed.
+**********************
+PowerShell transcript end
+End time: 20260831161747
+**********************
+**********************
+PowerShell transcript start
+Start time: 20260831163328
+Username: PA-payton\student
+RunAs User: PA-payton\student
+Configuration Name: 
+Machine: PA-payton (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.5.0_x64__8wekyb3d8bbwe\pwsh.dll -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\student\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\student\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\student\AppData\Roaming\Code\logs\20260831T162633\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\student\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-7356-202918.json' -FeatureFlags @() 
+Process ID: 8376
+PSVersion: 7.6.5
+PSEdition: Core
+GitCommitId: 7.6.5
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.4
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is lm1-logs.log
+
+ResourceGroupName : PipeTest
+Location          : centralus
+ProvisioningState : Succeeded
+Tags              : 
+                    Name         Value
+                    ===========  =====
+                    Environment  Test
+                    Department   IT
+
+ResourceId        : /subscriptions/38199d70-d859-49d3-b8a7-a1298b07b8b7/resourceGroups/PipeTest
+
+Script execution completed.
+**********************
+PowerShell transcript end
+End time: 20260831163336
+**********************
+**********************
+PowerShell transcript start
+Start time: 20260831163902
+Username: PA-payton\student
+RunAs User: PA-payton\student
+Configuration Name: 
+Machine: PA-payton (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.5.0_x64__8wekyb3d8bbwe\pwsh.dll -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\student\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\student\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\student\AppData\Roaming\Code\logs\20260831T162633\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\student\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-7356-202918.json' -FeatureFlags @() 
+Process ID: 8376
+PSVersion: 7.6.5
+PSEdition: Core
+GitCommitId: 7.6.5
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.4
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is lm1-logs.log
+
+ResourceGroupName : ObjectTest
+Location          : centralus
+ProvisioningState : Succeeded
+Tags              : 
+                    Name         Value
+                    ===========  =====
+                    Environment  Test
+                    Department   IT
+
+ResourceId        : /subscriptions/38199d70-d859-49d3-b8a7-a1298b07b8b7/resourceGroups/ObjectTest
+
+Script execution completed.
+
+ResourceGroupName : ObjectTest
+Location          : centralus
+Status            : Created
+Tags              : {[Environment, Test], [Department, IT]}
+Timestamp         : 8/31/2026 4:39:02 PM
+
+**********************
+PowerShell transcript end
+End time: 20260831163906
+**********************
+**********************
+PowerShell transcript start
+Start time: 20260831165002
+Username: PA-payton\student
+RunAs User: PA-payton\student
+Configuration Name: 
+Machine: PA-payton (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.5.0_x64__8wekyb3d8bbwe\pwsh.dll -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\student\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\student\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\student\AppData\Roaming\Code\logs\20260831T162633\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\student\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-7356-202918.json' -FeatureFlags @() 
+Process ID: 8376
+PSVersion: 7.6.5
+PSEdition: Core
+GitCommitId: 7.6.5
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.4
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is lm1-logs.log
+Confirm
+Are you sure you want to perform this action?
+Performing the operation "Create" on target "Resource Group
+'DevTest' ".
+&Yes  Yes to &All  &No  No to A&ll  &Suspend
+Y
+Confirm
+Are you sure you want to perform this action?
+Performing the operation "Replacing resource group ..." on target "DevTest".
+&Yes  Yes to &All  &No  No to A&ll  &Suspend
+N
+Script execution completed.
+
+ResourceGroupName : DevTest
+Location          : centralus
+Status            : Created
+Tags              : {[Environment, Test], [Department, IT]}
+Timestamp         : 8/31/2026 4:50:02 PM
+
+**********************
+PowerShell transcript end
+End time: 20260831165010
+**********************
