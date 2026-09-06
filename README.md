@@ -10,3 +10,7 @@ The function supports:
 - Pipeline input
 - Structured PowerShell object output
 - WhatIf and Confirm support
+- Begin, Process, and End blocks
+- Verbose output
+- Bulk resource group creation
+- Execution statistics 
