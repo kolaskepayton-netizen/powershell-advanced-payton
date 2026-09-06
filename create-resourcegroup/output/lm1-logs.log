@@ -1,0 +1,636 @@
+**********************
+PowerShell transcript start
+Start time: 20260906161743
+Username: PA-payton\student
+RunAs User: PA-payton\student
+Configuration Name: 
+Machine: PA-payton (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.5.0_x64__8wekyb3d8bbwe\pwsh.dll -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\student\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\student\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\student\AppData\Roaming\Code\logs\20260906T155138\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\student\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-7080-578529.json' -FeatureFlags @() 
+Process ID: 8948
+PSVersion: 7.6.5
+PSEdition: Core
+GitCommitId: 7.6.5
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.4
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is .\output\lm1-logs.log
+
+ResourceGroupName : Dev1
+Location          : centralus
+ProvisioningState : Succeeded
+Tags              : 
+                    Name         Value
+                    ===========  =====
+                    Department   IT
+                    Environment  Test
+
+ResourceId        : /subscriptions/38199d70-d859-49d3-
+                    b8a7-a1298b07b8b7/resourceGroups/D
+                    ev1
+
+Script execution completed.
+
+ResourceGroupName : Dev1
+Location          : centralus
+Status            : Created
+Tags              : {[Environment, Test],
+                    [Department, IT]}
+Timestamp         : 9/6/2026 4:17:43 PM
+
+**********************
+PowerShell transcript end
+End time: 20260906161755
+**********************
+**********************
+PowerShell transcript start
+Start time: 20260906161823
+Username: PA-payton\student
+RunAs User: PA-payton\student
+Configuration Name: 
+Machine: PA-payton (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.5.0_x64__8wekyb3d8bbwe\pwsh.dll -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\student\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\student\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\student\AppData\Roaming\Code\logs\20260906T155138\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\student\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-7080-578529.json' -FeatureFlags @() 
+Process ID: 8948
+PSVersion: 7.6.5
+PSEdition: Core
+GitCommitId: 7.6.5
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.4
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is .\output\lm1-logs.log
+
+ResourceGroupName : RG-1001
+Location          : centralus
+ProvisioningState : Succeeded
+Tags              : 
+                    Name         Value
+                    ===========  =====
+                    Department   IT
+                    Environment  Test
+
+ResourceId        : /subscriptions/38199d70-d859-49d3-
+                    b8a7-a1298b07b8b7/resourceGroups/R
+                    G-1001
+
+WARNING: You're using Az version 16.2.0. The latest version of Az is 16.3.0. Upgrade your Az modules using the following commands:
+  Update-PSResource Az -WhatIf    -- Simulate updating your Az modules.
+  Update-PSResource Az            -- Update your Az modules.
+Script execution completed.
+
+ResourceGroupName : RG-1001
+Location          : centralus
+Status            : Created
+Tags              : {[Environment, Test],
+                    [Department, IT]}
+Timestamp         : 9/6/2026 4:18:23 PM
+
+**********************
+PowerShell transcript end
+End time: 20260906161825
+**********************
+**********************
+PowerShell transcript start
+Start time: 20260906173457
+Username: PA-payton\student
+RunAs User: PA-payton\student
+Configuration Name: 
+Machine: PA-payton (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.5.0_x64__8wekyb3d8bbwe\pwsh.dll -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\student\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\student\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\student\AppData\Roaming\Code\logs\20260906T155138\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\student\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-7080-578529.json' -FeatureFlags @() 
+Process ID: 8948
+PSVersion: 7.6.5
+PSEdition: Core
+GitCommitId: 7.6.5
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.4
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is .\output\lm1-logs.log
+Confirm
+Provided resource group already exists. Are you sure you want to update it?
+&Yes  &No  &Suspend
+Y
+
+ResourceGroupName : RG-1001
+Location          : centralus
+ProvisioningState : Succeeded
+Tags              : 
+                    Name         Value
+                    ===========  =====
+                    Department   IT
+                    Environment  Test
+
+ResourceId        : /subscriptions/38199d70-d859-49d3-b8a7-a129
+                    8b07b8b7/resourceGroups/RG-1001
+
+Script execution completed.
+
+ResourceGroupName : RG-1001
+Location          : centralus
+Status            : Created
+Tags              : {[Environment, Test], [Department, IT]}
+Timestamp         : 9/6/2026 5:34:57 PM
+
+**********************
+PowerShell transcript end
+End time: 20260906173505
+**********************
+**********************
+PowerShell transcript start
+Start time: 20260906174302
+Username: PA-payton\student
+RunAs User: PA-payton\student
+Configuration Name: 
+Machine: PA-payton (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.5.0_x64__8wekyb3d8bbwe\pwsh.dll -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\student\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\student\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\student\AppData\Roaming\Code\logs\20260906T155138\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\student\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-7080-578529.json' -FeatureFlags @() 
+Process ID: 8948
+PSVersion: 7.6.5
+PSEdition: Core
+GitCommitId: 7.6.5
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.4
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is .\output\lm1-logs.log
+
+ResourceGroupName : RG-2001
+Location          : centralus
+ProvisioningState : Succeeded
+Tags              : 
+                    Name         Value
+                    ===========  =====
+                    Department   IT
+                    Environment  Test
+
+ResourceId        : /subscriptions/38199d70-d859-49d3-b8a7-a1
+                    298b07b8b7/resourceGroups/RG-2001
+
+Script execution completed.
+
+ResourceGroupName : RG-2001
+Location          : centralus
+Status            : Created
+Tags              : {[Environment, Test], [Department, IT]}
+Timestamp         : 9/6/2026 5:43:02 PM
+
+ResourceGroupName : RG-2002
+Location          : centralus
+ProvisioningState : Succeeded
+Tags              : 
+                    Name         Value
+                    ===========  =====
+                    Department   IT
+                    Environment  Test
+
+ResourceId        : /subscriptions/38199d70-d859-49d3-b8a7-a1
+                    298b07b8b7/resourceGroups/RG-2002
+
+Script execution completed.
+
+ResourceGroupName : RG-2002
+Location          : centralus
+Status            : Created
+Tags              : {[Environment, Test], [Department, IT]}
+Timestamp         : 9/6/2026 5:43:05 PM
+
+ResourceGroupName : RG-2003
+Location          : centralus
+ProvisioningState : Succeeded
+Tags              : 
+                    Name         Value
+                    ===========  =====
+                    Department   IT
+                    Environment  Test
+
+ResourceId        : /subscriptions/38199d70-d859-49d3-b8a7-a1
+                    298b07b8b7/resourceGroups/RG-2003
+
+Script execution completed.
+
+ResourceGroupName : RG-2003
+Location          : centralus
+Status            : Created
+Tags              : {[Environment, Test], [Department, IT]}
+Timestamp         : 9/6/2026 5:43:08 PM
+
+**********************
+PowerShell transcript end
+End time: 20260906174311
+**********************
+**********************
+PowerShell transcript start
+Start time: 20260906175728
+Username: PA-payton\student
+RunAs User: PA-payton\student
+Configuration Name: 
+Machine: PA-payton (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.5.0_x64__8wekyb3d8bbwe\pwsh.dll -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\student\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\student\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\student\AppData\Roaming\Code\logs\20260906T155138\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\student\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-7080-578529.json' -FeatureFlags @() 
+Process ID: 8948
+PSVersion: 7.6.5
+PSEdition: Core
+GitCommitId: 7.6.5
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.4
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is .\output\lm1-logs.log
+VERBOSE: Validation successful for
+VERBOSE: Creating resource group
+VERBOSE: Performing the operation "Create" on target "Resource Group 
+'RG-3001' ".
+VERBOSE: Creating resource group
+VERBOSE: 5:57:31 PM - Created resource group 'RG-3001' in location 'centralus'
+
+ResourceGroupName : RG-3001
+Location          : centralus
+ProvisioningState : Succeeded
+Tags              : 
+                    Name         Value
+                    ===========  =====
+                    Department   IT
+                    Environment  Test
+
+ResourceId        : /subscriptions/38199d70-d859-49d3-b8a7-a1
+                    298b07b8b7/resourceGroups/RG-3001
+
+VERBOSE: Resource group 'RG-3001' created successfully.
+Script execution completed.
+
+ResourceGroupName : RG-3001
+Location          : centralus
+Status            : Created
+Tags              : {[Environment, Test], [Department, IT]}
+Timestamp         : 9/6/2026 5:57:28 PM
+
+VERBOSE: Stopping transcript
+**********************
+PowerShell transcript end
+End time: 20260906175731
+**********************
+**********************
+PowerShell transcript start
+Start time: 20260906175939
+Username: PA-payton\student
+RunAs User: PA-payton\student
+Configuration Name: 
+Machine: PA-payton (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.5.0_x64__8wekyb3d8bbwe\pwsh.dll -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\student\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\student\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\student\AppData\Roaming\Code\logs\20260906T155138\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\student\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-7080-578529.json' -FeatureFlags @() 
+Process ID: 8948
+PSVersion: 7.6.5
+PSEdition: Core
+GitCommitId: 7.6.5
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.4
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is .\output\lm1-logs.log
+**********************
+PowerShell transcript end
+End time: 20260906175939
+**********************
+**********************
+PowerShell transcript start
+Start time: 20260906180053
+Username: PA-payton\student
+RunAs User: PA-payton\student
+Configuration Name: 
+Machine: PA-payton (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.5.0_x64__8wekyb3d8bbwe\pwsh.dll -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\student\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\student\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\student\AppData\Roaming\Code\logs\20260906T155138\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\student\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-7080-578529.json' -FeatureFlags @() 
+Process ID: 8948
+PSVersion: 7.6.5
+PSEdition: Core
+GitCommitId: 7.6.5
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.4
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is .\output\lm1-logs.log
+
+ResourceGroupName : RG-4001
+Location          : centralus
+ProvisioningState : Succeeded
+Tags              : 
+                    Name         Value
+                    ===========  =====
+                    Department   IT
+                    Environment  Test
+
+ResourceId        : /subscriptions/38199d70-d859-49d3-b8a7-a1
+                    298b07b8b7/resourceGroups/RG-4001
+
+Script execution completed.
+
+ResourceGroupName : RG-4001
+Location          : centralus
+Status            : Created
+Tags              : {[Environment, Test], [Department, IT]}
+Timestamp         : 9/6/2026 6:00:53 PM
+
+ResourceGroupName : RG-4002
+Location          : centralus
+ProvisioningState : Succeeded
+Tags              : 
+                    Name         Value
+                    ===========  =====
+                    Department   IT
+                    Environment  Test
+
+ResourceId        : /subscriptions/38199d70-d859-49d3-b8a7-a1
+                    298b07b8b7/resourceGroups/RG-4002
+
+Script execution completed.
+
+ResourceGroupName : RG-4002
+Location          : centralus
+Status            : Created
+Tags              : {[Environment, Test], [Department, IT]}
+Timestamp         : 9/6/2026 6:00:57 PM
+
+ResourceGroupName : RG-4003
+Location          : centralus
+ProvisioningState : Succeeded
+Tags              : 
+                    Name         Value
+                    ===========  =====
+                    Department   IT
+                    Environment  Test
+
+ResourceId        : /subscriptions/38199d70-d859-49d3-b8a7-a1
+                    298b07b8b7/resourceGroups/RG-4003
+
+Script execution completed.
+
+ResourceGroupName : RG-4003
+Location          : centralus
+Status            : Created
+Tags              : {[Environment, Test], [Department, IT]}
+Timestamp         : 9/6/2026 6:01:00 PM
+
+**********************
+PowerShell transcript end
+End time: 20260906180103
+**********************
+**********************
+PowerShell transcript start
+Start time: 20260906180917
+Username: PA-payton\student
+RunAs User: PA-payton\student
+Configuration Name: 
+Machine: PA-payton (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.5.0_x64__8wekyb3d8bbwe\pwsh.dll -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\student\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\student\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\student\AppData\Roaming\Code\logs\20260906T155138\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\student\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-7080-578529.json' -FeatureFlags @() 
+Process ID: 8948
+PSVersion: 7.6.5
+PSEdition: Core
+GitCommitId: 7.6.5
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.4
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is .\output\lm1-logs.log
+Confirm
+Provided resource group already exists. Are you sure you want to update it?
+&Yes  &No  &Suspend
+Y
+
+ResourceGroupName : RG-4001
+Location          : centralus
+ProvisioningState : Succeeded
+Tags              : 
+                    Name         Value
+                    ===========  =====
+                    Department   IT
+                    Environment  Test
+
+ResourceId        : /subscriptions/38199d70-d859-49d3-b8a7-a1
+                    298b07b8b7/resourceGroups/RG-4001
+
+Script execution completed.
+
+ResourceGroupName : RG-4001
+Location          : centralus
+Status            : Created
+Tags              : {[Environment, Test], [Department, IT]}
+Timestamp         : 9/6/2026 6:09:17 PM
+
+Confirm
+Provided resource group already exists. Are you sure you want to update it?
+&Yes  &No  &Suspend
+Y
+ResourceGroupName : RG-4002
+Location          : centralus
+ProvisioningState : Succeeded
+Tags              : 
+                    Name         Value
+                    ===========  =====
+                    Department   IT
+                    Environment  Test
+
+ResourceId        : /subscriptions/38199d70-d859-49d3-b8a7-a1
+                    298b07b8b7/resourceGroups/RG-4002
+
+Script execution completed.
+
+ResourceGroupName : RG-4002
+Location          : centralus
+Status            : Created
+Tags              : {[Environment, Test], [Department, IT]}
+Timestamp         : 9/6/2026 6:09:21 PM
+
+Confirm
+Provided resource group already exists. Are you sure you want to update it?
+&Yes  &No  &Suspend
+Y
+ResourceGroupName : RG-4003
+Location          : centralus
+ProvisioningState : Succeeded
+Tags              : 
+                    Name         Value
+                    ===========  =====
+                    Department   IT
+                    Environment  Test
+
+ResourceId        : /subscriptions/38199d70-d859-49d3-b8a7-a1
+                    298b07b8b7/resourceGroups/RG-4003
+
+Script execution completed.
+
+ResourceGroupName : RG-4003
+Location          : centralus
+Status            : Created
+Tags              : {[Environment, Test], [Department, IT]}
+Timestamp         : 9/6/2026 6:09:28 PM
+
+**********************
+PowerShell transcript end
+End time: 20260906180931
+**********************
+**********************
+PowerShell transcript start
+Start time: 20260906180947
+Username: PA-payton\student
+RunAs User: PA-payton\student
+Configuration Name: 
+Machine: PA-payton (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.5.0_x64__8wekyb3d8bbwe\pwsh.dll -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\student\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\student\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\student\AppData\Roaming\Code\logs\20260906T155138\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\student\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-7080-578529.json' -FeatureFlags @() 
+Process ID: 8948
+PSVersion: 7.6.5
+PSEdition: Core
+GitCommitId: 7.6.5
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.4
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is .\output\lm1-logs.log
+Confirm
+Provided resource group already exists. Are you sure you want to update it?
+&Yes  &No  &Suspend
+Y
+
+ResourceGroupName : RG-4001
+Location          : centralus
+ProvisioningState : Succeeded
+Tags              : 
+                    Name         Value
+                    ===========  =====
+                    Department   IT
+                    Environment  Test
+
+ResourceId        : /subscriptions/38199d70-d859-49d3-b8a7-a1
+                    298b07b8b7/resourceGroups/RG-4001
+
+Script execution completed.
+
+ResourceGroupName : RG-4001
+Location          : centralus
+Status            : Created
+Tags              : {[Environment, Test], [Department, IT]}
+Timestamp         : 9/6/2026 6:09:47 PM
+
+Confirm
+Provided resource group already exists. Are you sure you want to update it?
+&Yes  &No  &Suspend
+Y
+ResourceGroupName : RG-4002
+Location          : centralus
+ProvisioningState : Succeeded
+Tags              : 
+                    Name         Value
+                    ===========  =====
+                    Department   IT
+                    Environment  Test
+
+ResourceId        : /subscriptions/38199d70-d859-49d3-b8a7-a1
+                    298b07b8b7/resourceGroups/RG-4002
+
+Script execution completed.
+
+ResourceGroupName : RG-4002
+Location          : centralus
+Status            : Created
+Tags              : {[Environment, Test], [Department, IT]}
+Timestamp         : 9/6/2026 6:09:51 PM
+
+Confirm
+Provided resource group already exists. Are you sure you want to update it?
+&Yes  &No  &Suspend
+Y
+ResourceGroupName : RG-4003
+Location          : centralus
+ProvisioningState : Succeeded
+Tags              : 
+                    Name         Value
+                    ===========  =====
+                    Department   IT
+                    Environment  Test
+
+ResourceId        : /subscriptions/38199d70-d859-49d3-b8a7-a1
+                    298b07b8b7/resourceGroups/RG-4003
+
+Script execution completed.
+
+ResourceGroupName : RG-4003
+Location          : centralus
+Status            : Created
+Tags              : {[Environment, Test], [Department, IT]}
+Timestamp         : 9/6/2026 6:09:56 PM
+
+Total processed: 3
+Created: 3
+Skipped: 0
+Errors: 0
+**********************
+PowerShell transcript end
+End time: 20260906180959
+**********************
