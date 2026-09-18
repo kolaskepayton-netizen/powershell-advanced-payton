@@ -52,7 +52,8 @@ begin {
     $Skipped = 0 
     $Errors = 0
    
-    Start-Transcript -Path ".\output\lm1-logs.log" -Append 
+    $LogFilePath = "$PSScriptRoot\..\Logs\New-TestResourceGroup-Log-$(Get-Date -Format 'yyyy-MM-dd_HH-mm-ss').txt"
+    Write-ModuleLog -message "Starting resource group creation process." -LogFile $LogFilePath
 
 } 
  
@@ -108,15 +109,13 @@ $result
 end { 
 
 
-Write-Verbose "Stopping transcript"
-
 Write-Host "Total processed: $TotalProcessed"
 Write-Host "Created: $Created"
 Write-Host "Skipped: $Skipped"
 Write-Host "Errors: $Errors"
 
-stop-transcript 
- 
+Write-ModuleLog -message "Finished resource group creation." -LogFile $LogFilePath 
+
 } 
  
 }
