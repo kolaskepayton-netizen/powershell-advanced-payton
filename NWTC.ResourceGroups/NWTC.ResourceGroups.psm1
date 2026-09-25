@@ -11,4 +11,4 @@ foreach ($function in $privateFunctions) {
 }
 
 
-Export-ModuleMember -Function New-TestResourceGroup
+Export-ModuleMember -Function New-TestResourceGroup, Get-ResourceGroupSummary
