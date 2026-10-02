@@ -28,3 +28,7 @@ The MOF contails the DSC configuration that tells the system what configuration 
 ### Information Observed
 
 The MOF file targets localhost and uses the PaytonBaseline configuration. It contains a WindowsFeature resource that makes sure Windows Server Backup is installed.
+
+# Applying the Configuration
+
+The PaytonBaseline configuration was applied successfully using Start-DscConfiguration
