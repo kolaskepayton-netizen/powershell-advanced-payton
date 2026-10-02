@@ -31,4 +31,10 @@ The MOF file targets localhost and uses the PaytonBaseline configuration. It con
 
 # Applying the Configuration
 
-The PaytonBaseline configuration was applied successfully using Start-DscConfiguration
+The PaytonBaseline configuration was applied successfully using Start-DscConfiguration.
+
+# Validate Compliance
+
+Test-DscConfiguration returned True, showing that the system matches the configuration.
+
+Get-DscConfiguration showed the current DSC configuration applied to the system.
