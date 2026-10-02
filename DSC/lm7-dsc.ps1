@@ -4,7 +4,7 @@ Configuration PaytonBaseline
     {
             WindowsFeature BackupFeature
     {
-        Name = "Windows Server Backup"
+        Name = "Windows-Server-Backup"
         Ensure = "Present"
         }
     }
