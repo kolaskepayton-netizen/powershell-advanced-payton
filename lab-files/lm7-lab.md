@@ -38,3 +38,9 @@ The PaytonBaseline configuration was applied successfully using Start-DscConfigu
 Test-DscConfiguration returned True, showing that the system matches the configuration.
 
 Get-DscConfiguration showed the current DSC configuration applied to the system.
+
+# Expend Baseline
+
+I added a second resource that creates C:\Baseline.txt
+
+The file was successfully created.
